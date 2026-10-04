@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import streamlit as st
 from supabase import create_client
 
@@ -40,3 +41,6 @@ def logout():
     st.session_state.logged_in = False
     st.session_state.user = None
     st.rerun()
+=======
+
+>>>>>>> 0a045e496c8a37c9a4bc8f2eeec17b896e7e32d7
