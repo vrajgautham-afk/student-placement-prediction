@@ -3,7 +3,7 @@ import joblib
 
 from llm import generate_advice
 from chatbot import ask_ai
-from auth import sign_up, sign_in, logout
+from auth import sign_up, sign_in
 # ==========================================
 # SESSION STATE
 # ==========================================
